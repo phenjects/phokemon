@@ -1,0 +1,62 @@
+body {
+  background-color: gray;
+}
+
+.headerCLASS {
+  width: 20%;
+}
+
+.screenCLASS {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between; 
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  height: 600px;
+  width: 900px;
+  background-color: #d1ffc7;
+}
+
+.phokemonCLASS {
+  display: flex;
+  flex-flow: row;
+}
+
+.containerCLASS {
+}
+
+.phokemonCLASS img {
+  width: 10%;
+  height: 15%;
+}
+
+.playerCLASS {
+  background-color: transparent;
+  width: 450px;
+  height: 300px;
+  align-self: flex-start;
+}
+
+.enemyCLASS {
+  background-color: transparent;
+  width: 450px;
+  height: 300px;
+  align-self: flex-end;
+}
+
+.playerSystemCLASS {
+  background-color: transparent;
+  width: 450px;
+  height: 300px;
+  align-self: flex-start;
+}
+
+.enemySystemCLASS {
+  background-color: transparent;
+  width: 450px;
+  height: 300px;
+  align-self: flex-end;
+}
+
